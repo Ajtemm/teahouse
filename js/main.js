@@ -98,7 +98,7 @@ let nizLinkova = [
 
 
 
-   if(location.pathname=="/index.html"){
+   if(location.pathname=="/teahouse/" || location.pathname=="/teahouse/index.html"){
 //Products
 
 let nizSlike=["img/product-1.jpg","img/product-2.jpg","img/product-3.jpg"]
@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 
 
-else if(location.pathname=="/contact.html"){
+else if(location.pathname=="/teahouse/contact.html"){
 
 
 //Dinamicka ddl
@@ -383,7 +383,7 @@ function regi(){
 
 
 
-else if(location.pathname=="/store.html"){
+else if(location.pathname=="/teahouse/store.html"){
 
 
     let batnView=document.querySelector("#storeViewMore")
