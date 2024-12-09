@@ -569,6 +569,24 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 1000px) {
+    #navic{
+        display: block !important;
+    }
+    #sirina{
+        width: 100%;
+    }
+    .nesto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .navbar .navbar-nav{
+        margin-top: 100px !important;
+    }
+  }
 .flexxi{
     display: inline-block;
     
