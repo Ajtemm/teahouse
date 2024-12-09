@@ -75,7 +75,7 @@ let nizLinkova = [
         ime:"Contact",
     },
     {
-        link:"Author.html",
+        link:"author.html",
         ime:"Author",
     },
     {
